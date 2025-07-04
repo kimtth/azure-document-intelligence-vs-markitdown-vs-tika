@@ -1,0 +1,192 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Table Examples
+
+
+1 
+ 
+
+Table Examples 
+
+Use tables to organize data not format information. Never use table for layout. Avoid 
+merging cells, split cells, nested within a cell, and blank cells. Simple tables are easier 
+to interpret for all students and screen readers.  
+
+An example of a simple table with header row and data. 
+
+Header 1 Header 2 Header 3 
+Data 1 Data 2 Data 3 
+Data 4 Data 5 Data 6 
+
+ 
+
+Example 1: Avoid use table for layout like this format without header row 
+
+Course Information 
+Course: Accessibility 101 Course Number: 12345 
+Class Days: Tues and Thursday Class Times: 9:00 to 11:45am 
+Semester: Future 3000 Class Location: Library 100 
+
+ 
+
+Best Practices: use tabs position or columns format 
+
+Course Information 
+Course: Accessibility 101 Course Number: 12345 
+Class Days: Tues and Thursday Class Times: 9:00 to 11:45am 
+Semester: Future 3000 Class Location: Library 100 
+ 
+
+Example 2: Avoid merged cells “Grading Scale” 
+
+Grading Scale 
+Grade Points Percentage 
+A + 960 - 1000 96 - 100% 
+A 930 - 959 93 - 95% 
+A - 900 - 929 90 - 92% 
+
+ 
+
+Best Practices: Move the heading Grading Scale out of table instead of merging cells. 
+
+Grading Scale 
+Grade Points Percentage 
+A plus 960 to 1000 96 to 100% 
+
+
+
+2 
+ 
+
+Grade Points Percentage 
+A 930 to 959 93 to 95% 
+A minus 900 to 929 90 to 92% 
+
+Screen readers do not know whether - symbol is minus, hyphen, dash, en dash or em dash so it 
+will not read it. 
+
+ 
+
+Example 3: Avoid merged cells like this format 
+
+Reading Assignments 
+Week Topics & Activities Due Date 
+
+1 Reading 1 7/22/2021 
+2 Reading 2 7/23/2021 
+
+Writing Projects 
+4 Writing 1 8/1/2021 
+5 Writing 2 9/1/2021 
+
+ 
+
+Best Practices: Separate two tables with header rows 
+
+Reading Assignments 
+Week Topics & Activities Due date 
+
+1 Reading 1 7/22/2021 
+2 Reading 2 7/23/2021 
+
+ 
+
+Writing Projects 
+Week Topics & Activities Due date 
+
+4 Writing 1 8/1/2021 
+5 Writing 2 9/1/2021 
+
+ 
+
+  
+
+
+
+3 
+ 
+
+Example 4: Table Color 
+Avoid using color as the only means to convey information. For example, in the table 
+below, the complete and incomplete items may appear the same to someone who is 
+color blind: 
+
+20/20 vision: 
+
+Project Due Date Completed 
+Project 1 March 15, 2020 X 
+Project 2 April 15, 2020 X 
+Project 3 May 15, 2020 X 
+
+ 
+
+Color blind: 
+
+Project Due Date Completed 
+Project 1 March 15, 2020 X 
+Project 2 April 15, 2020 X 
+Project 3 May 15, 2020 X 
+
+ 
+
+Best practices: A better option would be to provide another way of conveying 
+information not just color alone and screen readers: 
+
+Project Due Date Completed 
+Project 1 March 15, 2020 N or No 
+Project 2 April 15, 2020 Y or Yes 
+Project 3 May 15, 2020 Y or Yes 
+
+ 
+
+
+	Table Examples
+	Course Information
+	Grading Scale
+	Reading Assignments
+	Writing Projects
+	Example 4: Table Color
+
+	Course Information
+	Grading Scale
+
